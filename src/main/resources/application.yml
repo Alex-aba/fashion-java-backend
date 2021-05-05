@@ -7,3 +7,6 @@ server:
 spring:
   application:
     name: fashion-java-backend
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
